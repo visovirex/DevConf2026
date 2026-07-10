@@ -41,3 +41,39 @@ button{
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Hero Section */
+.hero{
+    min-height: 100vh;
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero_content{
+    max-width: 700px;
+    color: #ffffff;
+    padding: 20px;
+}
+.hero_content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.hero_content h1 em{
+    font-style: italic;
+}
+.hero_content p{
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-bottom: 35px;
+}
