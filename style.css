@@ -41,6 +41,8 @@ button{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 /* Hero Section */
@@ -294,4 +296,73 @@ footer hr{
     justify-content: right;
     align-items: center;
     gap: 30px;
+}
+/* Hackathon Challenge section */
+
+.hackathon{
+    padding: 80px 60px;
+    background: #0D1B2A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hackathon_heading{
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.hackathon_heading h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hackathon_heading p{
+    color: #D6E4FF;
+    line-height: 1.8;
+}
+
+.challenge_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.challenge_card{
+    background: #16263A;
+    padding: 35px 25px;
+    border: 1px solid rgba(61,110,255,.25);
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.challenge_card:hover{
+    border-color: #3D6EFF;
+}
+
+.challenge_card h3{
+    color: #3D6EFF;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.challenge_card p{
+    color: #D6E4FF;
+    line-height: 1.6;
+}
+
+.join_btn{
+    display: inline-block;
+    padding: 16px 40px;
+    background: #3D6EFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.join_btn:hover{
+    background: #2E5BEB;
 }
