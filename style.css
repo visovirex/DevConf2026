@@ -240,3 +240,58 @@ button{
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
+
+/* Footer */
+footer{
+    background: #0D1B2A;
+    color: #FFFFFF;
+    padding: 50px 60px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer_logo img{
+    width: 110px;
+}
+.social_links{
+    display: flex;
+    gap: 18px;
+}
+.social_links a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.social_links a:hover{
+    background: #1D4ED8;
+    border-color: #0D1B2A;
+}
+footer hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 25px;
+}
+.copyright{
+    color: #ffffff;
+    opacity: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+}
+.privacy{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
