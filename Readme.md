@@ -16,13 +16,13 @@ This assignment demonstrates the practical application of concepts learned from 
 
 ## 🚀 Live Demo
 
-🔗 Live Website: **[Add Live Website Link Here]**
+🔗 Live Website: https://devconf2026.netlify.app/
 
 ---
 
 ## 🔗 Repository
 
-🔗 GitHub Repository: **[Add Repository Link Here]**
+🔗 GitHub Repository: https://github.com/visovirex/DevConf2026
 
 ---
 
@@ -106,8 +106,6 @@ DevConf2026/
 ├── style.css
 │
 ├── assets/
-│   ├── images/
-│   └── icons/
 │
 ├── PROMPTS.md
 └── README.md
@@ -153,18 +151,6 @@ PROMPTS.md
 
 ---
 
-## 📸 Screenshots
-
-### Homepage
-
-Add project screenshots here after completion.
-
-```text
-assets/images/screenshot-homepage.png
-```
-
----
-
 ## 🎓 Course Information
 
 **Course:** Programming Hero Full-Stack Web Development
@@ -188,24 +174,6 @@ Through this project, I practiced:
 
 ---
 
-## 🔧 Setup Instructions
-
-1. Clone the repository
-
-```bash
-git clone [repository-url]
-```
-
-2. Open the project folder
-
-```bash
-cd DevConf2026
-```
-
-3. Open `index.html` in your browser
-
----
-
 ## 📌 Assignment Requirements Completed
 
 * Navbar Section
@@ -226,11 +194,7 @@ cd DevConf2026
 
 Full-Stack Web Development Learner
 
-GitHub: [Add GitHub Profile Link]
-
-LinkedIn: [Add LinkedIn Profile Link]
-
-Portfolio: [Add Portfolio Link]
+GitHub: https://github.com/visovirex
 
 ---
 
