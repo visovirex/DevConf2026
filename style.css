@@ -366,3 +366,8 @@ footer hr{
 .join_btn:hover{
     background: #2E5BEB;
 }
+
+hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
